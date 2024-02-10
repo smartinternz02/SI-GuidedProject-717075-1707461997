@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_Login,Chrome 121.0.0.0,,,2024-02-10 12:56:07,2024-02-10 12:56:30,22.928s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_Amazon_Login,Chrome 121.0.0.0,,,2024-02-10 12:56:07,2024-02-10 12:56:30,22.714s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-10 12:56:07,2024-02-10 12:56:13,5.645s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-10 12:56:13,2024-02-10 12:56:17,3.717s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-10 12:56:17,2024-02-10 12:56:19,2.309s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,2024-02-10 12:56:19,2024-02-10 12:56:22,2.698s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-02-10 12:56:22,2024-02-10 12:56:24,1.896s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/input_Email or mobile phone number_email""), username)",Chrome 121.0.0.0,,,2024-02-10 12:56:24,2024-02-10 12:56:26,1.813s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,2024-02-10 12:56:26,2024-02-10 12:56:27,1.370s,PASSED
+"setText(findTestObject(""Amazon_Button_OR/Page_Amazon Sign In/input_Forgot Password_password""), password)",Chrome 121.0.0.0,,,2024-02-10 12:56:27,2024-02-10 12:56:29,1.421s,PASSED
+"click(findTestObject(""Amazon_Button_OR/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,2024-02-10 12:56:29,2024-02-10 12:56:29,0.358s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Amazon_Login/Amazon_Login""), false)",Chrome 121.0.0.0,,,2024-02-10 12:56:29,2024-02-10 12:56:29,0.541s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-10 12:56:29,2024-02-10 12:56:30,0.677s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-10 12:56:30,2024-02-10 12:56:30,0.005s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-10 12:56:30,2024-02-10 12:56:30,0.003s,PASSED

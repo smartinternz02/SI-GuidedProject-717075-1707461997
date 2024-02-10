@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite_checkout,Chrome 121.0.0.0,,,2024-02-10 14:52:06,2024-02-10 14:53:00,53.233s,PASSED
+,,,,,,,
+Test Cases/Amazon/TC_checkout,Chrome 121.0.0.0,,,2024-02-10 14:52:07,2024-02-10 14:53:00,53.060s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-10 14:52:07,2024-02-10 14:52:10,3.380s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,2024-02-10 14:52:10,2024-02-10 14:52:14,4.426s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,2024-02-10 14:52:15,2024-02-10 14:52:16,1.926s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,2024-02-10 14:52:16,2024-02-10 14:52:19,2.143s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Online Shopping site in India Shop Onl_10c5f3/span_Hello, sign in""))",Chrome 121.0.0.0,,,2024-02-10 14:52:19,2024-02-10 14:52:32,13.519s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Amazon Sign In/input_Email or mobile phone number_email""), username)",Chrome 121.0.0.0,,,2024-02-10 14:52:32,2024-02-10 14:52:33,1.347s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Amazon Sign In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 121.0.0.0,,,2024-02-10 14:52:33,2024-02-10 14:52:44,10.049s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Amazon Sign In/input_Forgot Password_password""), ""jKhJCufa6utDUfafCRSIiw=="")",Chrome 121.0.0.0,,,2024-02-10 14:52:44,2024-02-10 14:52:44,0.501s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Amazon Sign In/input_Enter your password_signInSubmit""))",Chrome 121.0.0.0,,,2024-02-10 14:52:44,2024-02-10 14:52:44,0.359s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Online Shopping site in India Shop Onl_10c5f3/a_9                                        _5a3c93""))",Chrome 121.0.0.0,,,2024-02-10 14:52:44,2024-02-10 14:52:52,7.522s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Amazon.in Shopping Cart/input_This order contains a gift_proceedToR_057b5e""))",Chrome 121.0.0.0,,,2024-02-10 14:52:52,2024-02-10 14:52:53,1.391s,PASSED
+"click(findTestObject(""Object Repository/Amazon_checkout_OR1/Page_Select a delivery address/input_Amazon.in homepage_a-button-input""))",Chrome 121.0.0.0,,,2024-02-10 14:52:53,2024-02-10 14:52:59,5.592s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,2024-02-10 14:52:59,2024-02-10 14:53:00,0.675s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-10 14:53:00,2024-02-10 14:53:00,0.008s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,2024-02-10 14:53:00,2024-02-10 14:53:00,0.005s,PASSED
